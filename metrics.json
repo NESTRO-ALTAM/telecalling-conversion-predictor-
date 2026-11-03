@@ -1,0 +1,59 @@
+{
+  "best_model": "XGBoost",
+  "selection_criterion": "F1-Score (ROC-AUC tie-breaker)",
+  "n_train": 800,
+  "n_test": 200,
+  "models": {
+    "Logistic Regression": {
+      "Accuracy": 0.88,
+      "Precision": 0.9167,
+      "Recall": 0.8191,
+      "F1-Score": 0.8652,
+      "ROC-AUC": 0.936,
+      "Confusion Matrix": [
+        [
+          99,
+          7
+        ],
+        [
+          17,
+          77
+        ]
+      ]
+    },
+    "Random Forest": {
+      "Accuracy": 0.875,
+      "Precision": 0.8966,
+      "Recall": 0.8298,
+      "F1-Score": 0.8619,
+      "ROC-AUC": 0.9193,
+      "Confusion Matrix": [
+        [
+          97,
+          9
+        ],
+        [
+          16,
+          78
+        ]
+      ]
+    },
+    "XGBoost": {
+      "Accuracy": 0.885,
+      "Precision": 0.9176,
+      "Recall": 0.8298,
+      "F1-Score": 0.8715,
+      "ROC-AUC": 0.9272,
+      "Confusion Matrix": [
+        [
+          99,
+          7
+        ],
+        [
+          16,
+          78
+        ]
+      ]
+    }
+  }
+}
